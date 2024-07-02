@@ -1,5 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;900&family=PT+Sans&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;900&family=PT+Sans&family=Roboto&display=swap");
 
-*{background-color:rgb(155 0 71);
+/* 
+font-family: "Fira Sans Condensed", sans-serif; назви
+font-family: "PT Sans",sans-serif; звичайний текст
+font-family: "Roboto", sans-serif; для лого
+ */
+
+* {
+  background-color: rgb(155 0 71);
+  font-family: "PT Sans", sans-serif;
+  font-size: 14;
+  font-weight: 400;
 }
 
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
