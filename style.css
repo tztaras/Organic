@@ -22,14 +22,11 @@ font-family: "Roboto", sans-serif; для лого
 /* HEADER */
 /* HEADER */
 
-
-
 .header {
   display: grid;
   /* grid-template-rows: max-content;
   grid-template-columns: 3fr 2fr 1fr;
   grid-template-areas: 'logo nav search'; */
-
   grid-template: 'logo nav search' max-content / 3fr 2fr 1fr;
 }
 
