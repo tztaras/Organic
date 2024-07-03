@@ -32,17 +32,19 @@ font-family: "Roboto", sans-serif; для лого
 
 .header_logo-wrapper {
   grid-area: logo;
-  /* background: aqua; */
+  background: aqua;
 }
 
 .logo {
+  background: olivedrab;
 }
 
 .header_nav {
   grid-area: nav;
-  /* background-color: blue; */
+  background-color: blue;
 }
 
 .search {
   grid-area: search;
+  background-color: brown;
 }
