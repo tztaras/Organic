@@ -32,11 +32,10 @@ font-family: "Roboto", sans-serif; для лого
 
 .header_logo-wrapper {
   grid-area: logo;
-  background: aqua;
 }
 
 .logo {
-  background: olivedrab;
+  /* background: olivedrab; */
 }
 
 .header_nav {
@@ -46,5 +45,5 @@ font-family: "Roboto", sans-serif; для лого
 
 .search {
   grid-area: search;
-  background-color: brown;
+  background-color: salmon;
 }
