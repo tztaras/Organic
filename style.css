@@ -27,13 +27,22 @@ font-family: "Roboto", sans-serif; для лого
   /* grid-template-rows: max-content;
   grid-template-columns: 3fr 2fr 1fr;
   grid-template-areas: 'logo nav search'; */
-  grid-template: 'logo nav search' max-content / 3fr 2fr 1fr;
+  grid-template: "logo nav search" max-content / 3fr 2fr 1fr;
 }
 
-.header_logo-wrapper {}
+.header_logo-wrapper {
+  grid-area: logo;
+  /* background: aqua; */
+}
 
-.logo {}
+.logo {
+}
 
-.header_nav {}
+.header_nav {
+  grid-area: nav;
+  /* background-color: blue; */
+}
 
-.search {}
+.search {
+  grid-area: search;
+}
