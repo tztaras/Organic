@@ -7,7 +7,7 @@ font-family: "Roboto", sans-serif; для лого
  */
 
 * {
-  background-color: rgb(155 0 71);
+  background-color: rgb(250, 255, 241);
   font-family: "PT Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -26,8 +26,11 @@ font-family: "Roboto", sans-serif; для лого
 
 .header {
   display: grid;
-  grid-template-rows: max-content;
+  /* grid-template-rows: max-content;
   grid-template-columns: 3fr 2fr 1fr;
+  grid-template-areas: 'logo nav search'; */
+
+  grid-template: 'logo nav search' max-content / 3fr 2fr 1fr;
 }
 
 .header_logo-wrapper {}
