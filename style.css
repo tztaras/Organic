@@ -78,6 +78,10 @@ font-family: "Roboto", sans-serif; для лого
   color: rgb(50, 84, 85);
 }
 
+.header_nav a:after {
+  content: '';
+}
+
 .search {
   grid-area: search;
   background-color: salmon;
