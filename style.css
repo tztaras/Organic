@@ -80,6 +80,10 @@ font-family: "Roboto", sans-serif; для лого
 
 .header_nav a:after {
   content: '';
+  width: 100%;
+  height: 100%;
+  background: rgb(50, 84, 85);
+  ;
 }
 
 .search {
