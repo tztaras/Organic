@@ -57,6 +57,24 @@ font-family: "Roboto", sans-serif; для лого
   background-color: blue;
 }
 
+.header_nav ul {
+  display: flex;
+  gap: 10px;
+}
+
+.header_nav a {
+  padding: 10px;
+}
+
+.header_nav a:hover {
+  color: rgb(91, 151, 153);
+  font-weight: bold;
+}
+
+.header_nav a:active {
+  color: rgb(50, 84, 85);
+}
+
 .search {
   grid-area: search;
   background-color: salmon;
