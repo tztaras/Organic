@@ -88,6 +88,7 @@ font-family: "Roboto", sans-serif; для лого
   position: absolute;
   left: 0;
   bottom: -100%;
+  transition: bottom 0.3s, background-color 0.2s;
 
 }
 
