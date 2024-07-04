@@ -35,11 +35,6 @@ font-family: "Roboto", sans-serif; для лого
   overflow: hidden;
 }
 
-/* .header_logo-wrapper {
-  grid-area: logo;
-  justify-self: end;
-} */
-
 .logo {
   grid-area: logo;
   justify-self: end;
@@ -50,12 +45,12 @@ font-family: "Roboto", sans-serif; для лого
   /* width: 160px; */
   line-height: 1;
   padding-right: 19%;
+  transition: color 0.3s, font-weight 0.3s;
 
 }
 
 .header_nav {
   grid-area: nav;
-  /* background-color: blue; */
 }
 
 .header_nav ul {
@@ -70,7 +65,8 @@ font-family: "Roboto", sans-serif; для лого
   display: inline-block;
 }
 
-.header_nav a:hover {
+.header_nav a:hover,
+.logo:hover {
   color: rgb(91, 151, 153);
   font-weight: bold;
 }
@@ -101,5 +97,16 @@ font-family: "Roboto", sans-serif; для лого
 
 .search {
   grid-area: search;
-  /* background-color: salmon; */
+}
+
+.search_icon {
+  transition: fill 0.2s;
+}
+
+.search_icon:hover {
+  fill: rgb(91, 151, 153);
+}
+
+.search_icon:active {
+  fill: rgb(50, 84, 85);
 }
