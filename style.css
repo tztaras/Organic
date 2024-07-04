@@ -7,7 +7,7 @@ font-family: "Roboto", sans-serif; для лого
  */
 
 * {
-  background-color: rgb(250, 255, 241);
+  background-color: rgb(251, 255, 254);
   font-family: "PT Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -30,14 +30,26 @@ font-family: "Roboto", sans-serif; для лого
   grid-template: "logo nav search" max-content / 3fr 2fr 1fr;
   align-items: center;
   justify-items: start;
+  padding: 20px 0;
+  text-transform: uppercase;
 }
 
-.header_logo-wrapper {
+/* .header_logo-wrapper {
   grid-area: logo;
-}
+  justify-self: end;
+} */
 
 .logo {
-  /* background: olivedrab; */
+  grid-area: logo;
+  justify-self: end;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  color: #ca0043;
+  /* width: 160px; */
+  line-height: 1;
+  padding-right: 19%;
+
 }
 
 .header_nav {
