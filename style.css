@@ -64,6 +64,9 @@ font-family: "Roboto", sans-serif; для лого
 
 .header_nav a {
   padding: 10px;
+  transition: color 0.3s, font-weight 0.3s;
+  ;
+
 }
 
 .header_nav a:hover {
