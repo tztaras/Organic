@@ -45,8 +45,7 @@ font-family: "Roboto", sans-serif; для лого
   /* width: 160px; */
   line-height: 1;
   padding-right: 19%;
-  transition: color 0.3s, font-weight 0.3s;
-
+  transition: color 0.3s;
 }
 
 .header_nav {
