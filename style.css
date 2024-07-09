@@ -79,7 +79,7 @@ font-family: "Roboto", sans-serif; для лого
 }
 
 .header_nav a:after {
-  content: '';
+  content: "";
   display: block;
   width: 100%;
   height: 20%;
@@ -119,22 +119,36 @@ font-family: "Roboto", sans-serif; для лого
 .main {
   display: grid;
   grid-template-rows: 3fr 1fr 3fr;
+  grid-template-columns: 2fr 1fr 1.5fr 1.5fr;
+  grid-template-areas:
+    "slider-arrows healthy thirsty thirsty"
+    "slider-arrows healthy slider-dots orange"
+    "freshy healthy slider-dots orange";
 }
 
-.slider-arrows {}
+.slider-arrows {
+}
 
-.slider-arrows_items-wrapper {}
+.slider-arrows_items-wrapper {
+}
 
-.slider-arrows_item {}
+.slider-arrows_item {
+}
 
-.slider-arrows_nav {}
+.slider-arrows_nav {
+}
 
-.slider-arrows_arrow {}
+.slider-arrows_arrow {
+}
 
-.slider-arrows_arrow--left {}
+.slider-arrows_arrow--left {
+}
 
-.btn {}
+.btn {
+}
 
-.slider-arrows_btn {}
+.slider-arrows_btn {
+}
 
-.slider-arrows_arrow--right {}
+.slider-arrows_arrow--right {
+}
