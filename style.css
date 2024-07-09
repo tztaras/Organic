@@ -116,7 +116,9 @@ font-family: "Roboto", sans-serif; для лого
 
 /* main */
 
-.main {}
+.main {
+  display: grid;
+}
 
 .slider-arrows {}
 
