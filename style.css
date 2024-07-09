@@ -113,3 +113,23 @@ font-family: "Roboto", sans-serif; для лого
 .search_icon:active {
   fill: rgb(50, 84, 85);
 }
+
+.main {}
+
+.slider-arrows {}
+
+.slider-arrows_items-wrapper {}
+
+.slider-arrows_item {}
+
+.slider-arrows_nav {}
+
+.slider-arrows_arrow {}
+
+.slider-arrows_arrow--left {}
+
+.btn {}
+
+.slider-arrows_btn {}
+
+.slider-arrows_arrow--right {}
