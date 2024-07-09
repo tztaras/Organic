@@ -118,6 +118,7 @@ font-family: "Roboto", sans-serif; для лого
 
 .main {
   display: grid;
+  grid-template-rows: 3fr 1fr 3fr;
 }
 
 .slider-arrows {}
