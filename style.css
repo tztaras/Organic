@@ -134,22 +134,34 @@ font-family: "Roboto", sans-serif; для лого
   position: relative;
 }
 
-.slider-arrows_items-wrapper {}
+.slider-arrows_items-wrapper {
+}
 
-.slider-arrows_item {}
+.slider-arrows_item {
+}
 
 .slider-arrows_nav {
   position: absolute;
-  left: 50%;
   top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.slider-arrows_arrow {}
+.slider-arrows_arrow {
+  color: rgb(255, 255, 255);
+}
 
-.slider-arrows_arrow--left {}
+.slider-arrows_arrow--left {
+}
 
-.btn {}
+.btn {
+  color: aliceblue;
+}
 
-.slider-arrows_btn {}
+.slider-arrows_btn {
+}
 
-.slider-arrows_arrow--right {}
+.slider-arrows_arrow--right {
+}
