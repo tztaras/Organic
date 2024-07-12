@@ -131,13 +131,18 @@ font-family: "Roboto", sans-serif; для лого
 
 .slider-arrows {
   grid-area: slider-arrows;
+  position: relative;
 }
 
 .slider-arrows_items-wrapper {}
 
 .slider-arrows_item {}
 
-.slider-arrows_nav {}
+.slider-arrows_nav {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
 
 .slider-arrows_arrow {}
 
