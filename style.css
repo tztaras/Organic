@@ -143,14 +143,20 @@ font-family: "Roboto", sans-serif; для лого
 .slider-arrows_nav {
   position: absolute;
   top: 50%;
+  left: 0;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
 .slider-arrows_arrow {
   color: rgb(255, 255, 255);
+  font-size: 34px;
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
 }
 
 .slider-arrows_arrow--left {
