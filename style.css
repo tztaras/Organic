@@ -18,6 +18,24 @@ font-family: "Roboto", sans-serif; для лого
   margin: 0 auto;
 }
 
+.btn {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 2px solid white;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: opacity 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  opacity: 0.6;
+}
+
 /* HEADER */
 /* HEADER */
 /* HEADER */
@@ -166,27 +184,17 @@ arrows */
   border-radius: 50%;
   width: 50px;
   height: 50px;
-}
-
-.slider-arrows_arrow--left {
-}
-
-.btn {
-  color: rgb(255, 255, 255);
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  border: 2px solid white;
-  padding: 10px 20px;
-  font-size: 16px;
   transition: opacity 0.2s;
 }
 
-.btn:hover {
+.slider-arrows_arrow:hover {
   opacity: 0.8;
 }
-
-.btn:active {
+.slider-arrows_arrow:active {
   opacity: 0.6;
+}
+
+.slider-arrows_arrow--left {
 }
 
 .slider-arrows_btn {
@@ -202,24 +210,62 @@ dots */
 .slider-dots {
   grid-area: slider-dots;
   position: relative;
+  max-width: fit-content;
 }
 .slider-dots_items-wrapper {
+  filter: brightness(90%);
+  width: 100%;
+  height: 100%;
+  display: flex;
 }
 .slider-dots_item {
 }
 .slider-dots_btn-wrapper {
-}
-.btn {
-}
-.slider-dots_btn {
   position: absolute;
   top: 50%;
   left: 0;
   transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.btn {
+}
+.slider-dots_btn {
+  /* position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center; */
 }
 .slider-dots_nav {
+  width: 100%;
+  position: absolute;
+  bottom: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
 .slider-dots_nav-item {
+  width: 25px;
+  height: 20px;
+  background-color: rgb(255, 246, 241);
+  transform: rotate(35deg);
+  border-radius: 29% 17% 35% 26% / 38% 30% 38% 36%;
+  transition: opacity 0.2s;
+}
+
+.slider-dots_nav-item:hover {
+  opacity: 0.9;
+}
+
+.slider-dots_nav-item:active {
+  opacity: 0.7;
 }
 .slider-dots_nav-item--active {
+  background: transparent;
+  border: 1px solid white;
 }
