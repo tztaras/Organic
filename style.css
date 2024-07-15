@@ -200,6 +200,7 @@ dots
 dots */
 
 .slider-dots {
+  grid-area: slider-dots;
 }
 .slider-dots_items-wrapper {
 }
