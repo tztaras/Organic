@@ -136,7 +136,9 @@ font-family: "Roboto", sans-serif; для лого
   max-width: fit-content;
 }
 
-.slider-arrows_items-wrapper {}
+.slider-arrows_items-wrapper {
+  filter: brightness(90%);
+}
 
 .slider-arrows_item {}
 
