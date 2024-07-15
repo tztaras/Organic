@@ -129,7 +129,9 @@ font-family: "Roboto", sans-serif; для лого
     "slider-arrows healthy slider-dots orange" 1fr
     "freshy healthy slider-dots orange" 3fr / 2fr 1fr 1.5fr 1.5fr;
 }
-
+/* arrows
+arrows
+arrows */
 .slider-arrows {
   grid-area: slider-arrows;
   position: relative;
@@ -143,7 +145,8 @@ font-family: "Roboto", sans-serif; для лого
   display: flex;
 }
 
-.slider-arrows_item {}
+.slider-arrows_item {
+}
 
 .slider-arrows_nav {
   position: absolute;
@@ -165,7 +168,8 @@ font-family: "Roboto", sans-serif; для лого
   height: 50px;
 }
 
-.slider-arrows_arrow--left {}
+.slider-arrows_arrow--left {
+}
 
 .btn {
   color: rgb(255, 255, 255);
@@ -185,6 +189,31 @@ font-family: "Roboto", sans-serif; для лого
   opacity: 0.6;
 }
 
-.slider-arrows_btn {}
+.slider-arrows_btn {
+}
 
-.slider-arrows_arrow--right {}
+.slider-arrows_arrow--right {
+}
+
+/* dots
+dots
+dots */
+
+.slider-dots {
+}
+.slider-dots_items-wrapper {
+}
+.slider-dots_item {
+}
+.slider-dots_btn-wrapper {
+}
+.btn {
+}
+.slider-dots_btn {
+}
+.slider-dots_nav {
+}
+.slider-dots_nav-item {
+}
+.slider-dots_nav-item--active {
+}
