@@ -112,6 +112,7 @@ font-family: "Roboto", sans-serif; для лого
 .search_icon:active {
   fill: rgb(50, 84, 85);
 }
+
 /* main */
 /* main */
 /* main */
@@ -132,13 +133,12 @@ font-family: "Roboto", sans-serif; для лого
 .slider-arrows {
   grid-area: slider-arrows;
   position: relative;
+  max-width: fit-content;
 }
 
-.slider-arrows_items-wrapper {
-}
+.slider-arrows_items-wrapper {}
 
-.slider-arrows_item {
-}
+.slider-arrows_item {}
 
 .slider-arrows_nav {
   position: absolute;
@@ -159,15 +159,17 @@ font-family: "Roboto", sans-serif; для лого
   height: 50px;
 }
 
-.slider-arrows_arrow--left {
-}
+.slider-arrows_arrow--left {}
 
 .btn {
-  color: aliceblue;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 2px solid white;
+  padding: 10px 20px;
+  font-size: 16px;
 }
 
-.slider-arrows_btn {
-}
+.slider-arrows_btn {}
 
-.slider-arrows_arrow--right {
-}
+.slider-arrows_arrow--right {}
