@@ -148,6 +148,7 @@ font-family: "Roboto", sans-serif; для лого
   display: flex;
   justify-content: space-around;
   align-items: center;
+  transform: translateY(-50%);
 }
 
 .slider-arrows_arrow {
@@ -168,6 +169,15 @@ font-family: "Roboto", sans-serif; для лого
   border: 2px solid white;
   padding: 10px 20px;
   font-size: 16px;
+  transition: opacity 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  opacity: 0.6;
 }
 
 .slider-arrows_btn {}
