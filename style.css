@@ -212,6 +212,9 @@ dots */
 .btn {
 }
 .slider-dots_btn {
+  position: absolute;
+  top: 50%;
+  left: 0;
 }
 .slider-dots_nav {
 }
