@@ -201,6 +201,7 @@ dots */
 
 .slider-dots {
   grid-area: slider-dots;
+  position: relative;
 }
 .slider-dots_items-wrapper {
 }
