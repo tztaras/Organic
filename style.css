@@ -279,7 +279,10 @@ FRESHY
 FRESHY
 FRESHY */
 
-.freshy {}
+.freshy {
+  grid-area: freshy;
+  background-color: rgba(196, 232, 108, 1);
+}
 
 .common {}
 
