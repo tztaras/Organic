@@ -8,7 +8,7 @@ font-family: "Roboto", sans-serif; для лого
 
 * {
   /* background-color: rgb(251, 255, 254); */
-  font-family: "PT Sans", sans-serif;
+
   font-size: 14px;
   font-weight: 400;
 }
@@ -35,6 +35,10 @@ font-family: "Roboto", sans-serif; для лого
 
 .btn:active {
   opacity: 0.6;
+}
+
+p {
+  font-family: "PT Sans", sans-serif;
 }
 
 /* HEADER */
@@ -234,19 +238,6 @@ dots */
   width: 100%;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
-}
-
-.btn {
-}
-
-.slider-dots_btn {
-  /* position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  display: flex;
-  justify-content: center; */
 }
 
 .slider-dots_nav {
