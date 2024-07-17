@@ -293,7 +293,12 @@ FRESHY */
   padding: 30px;
 }
 
-.title {}
+.title {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 24px;
+  width: 140px;
+  font-weight: 300;
+}
 
 .common__desc {
   max-width: 60%;
