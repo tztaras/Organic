@@ -1,8 +1,8 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;900&family=PT+Sans&family=Roboto&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;900&family=Roboto&display=swap");
 @font-face {
-  font-family: ;
-  src: url();
+  font-family: "kotyhoroshko";
+  src: url("/fonts/Kotyhoroshko-Regular.0.2.otf") format("opentype");
 }
 
 /* 
@@ -42,9 +42,9 @@ font-family: "Roboto", sans-serif; для лого
   opacity: 0.6;
 }
 
-/* p {
-  font-family: "PT Sans", sans-serif;
-} */
+p {
+  font-family: "kotyhoroshko";
+}
 
 /* HEADER */
 /* HEADER */
@@ -319,7 +319,7 @@ FRESHY */
 .common__desc {
   max-width: 60%;
   hyphens: auto;
-  text-align: justify;
+  text-align: right;
 }
 
 .healthy {
