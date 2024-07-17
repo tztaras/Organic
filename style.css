@@ -1,4 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;900&family=PT+Sans&family=Roboto&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;900&family=PT+Sans&family=Roboto&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;900&family=Roboto&display=swap");
+@font-face {
+  font-family: ;
+  src: url();
+}
 
 /* 
 font-family: "Fira Sans Condensed", sans-serif; назви
@@ -37,9 +42,9 @@ font-family: "Roboto", sans-serif; для лого
   opacity: 0.6;
 }
 
-p {
+/* p {
   font-family: "PT Sans", sans-serif;
-}
+} */
 
 /* HEADER */
 /* HEADER */
