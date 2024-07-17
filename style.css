@@ -170,13 +170,13 @@ arrows */
 
 .slider-arrows_nav {
   position: absolute;
-  top: 50%;
+  bottom: 9%;
   left: 0;
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  transform: translateY(-50%);
+  /* transform: translateY(100%); */
 }
 
 .slider-arrows_arrow {
