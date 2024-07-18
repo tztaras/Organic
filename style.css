@@ -322,6 +322,10 @@ FRESHY */
   hyphens: auto;
   text-align: right;
 }
+/* 
+HEALTHY
+HEALTHY
+HEALTHY */
 
 .healthy {
   grid-area: healthy;
@@ -332,6 +336,10 @@ FRESHY */
   flex-direction: column-reverse;
   justify-content: flex-start;
 }
+/* 
+THIRSTY
+THIRSTY
+THIRSTY */
 
 .thirsty {
   grid-area: thirsty;
