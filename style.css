@@ -339,3 +339,7 @@ FRESHY */
 .common--row-rev {
   flex-direction: row-reverse;
 }
+
+.common--row-rev .common__desc {
+  text-align: left;
+}
