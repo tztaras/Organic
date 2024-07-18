@@ -328,7 +328,13 @@ FRESHY */
   background-color: rgba(255, 71, 71, 1);
 }
 
+.common--col-rev {
+}
+
 .thirsty {
   grid-area: thirsty;
   background-color: rgba(255, 181, 72, 1);
+}
+
+.common--row-rev {
 }
