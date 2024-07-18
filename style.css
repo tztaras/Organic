@@ -330,13 +330,16 @@ FRESHY */
 
 .common--col-rev {
   flex-direction: column-reverse;
+  justify-content: flex-start;
 }
 
 .thirsty {
   grid-area: thirsty;
   background-color: rgba(255, 181, 72, 1);
 }
-
+.thirsty .common__desc {
+  max-width: 30%;
+}
 .common--row-rev {
   flex-direction: row-reverse;
   gap: 40px;
