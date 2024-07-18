@@ -337,4 +337,5 @@ FRESHY */
 }
 
 .common--row-rev {
+  flex-direction: row-reverse;
 }
