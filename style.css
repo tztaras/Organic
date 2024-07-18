@@ -329,6 +329,7 @@ FRESHY */
 }
 
 .common--col-rev {
+  flex-direction: column-reverse;
 }
 
 .thirsty {
@@ -338,6 +339,7 @@ FRESHY */
 
 .common--row-rev {
   flex-direction: row-reverse;
+  gap: 40px;
 }
 
 .common--row-rev .common__desc {
