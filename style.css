@@ -309,6 +309,7 @@ FRESHY */
   font-size: 60px;
   font-weight: 300;
   letter-spacing: 3px;
+  /* span becomes block element: */
   display: block;
 }
 
