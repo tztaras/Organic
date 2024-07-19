@@ -153,8 +153,8 @@ p {
     "freshy healthy slider-dots orange";  */
   grid-template:
     "slider-arrows healthy thirsty thirsty" 3fr
-    "slider-arrows healthy slider-dots orange" 1fr
-    "freshy healthy slider-dots orange" 3fr / 2fr 1fr 1.5fr 1.5fr;
+    "slider-arrows healthy slider-dots ornge" 1fr
+    "freshy healthy slider-dots ornge" 3fr / 2fr 1fr 1.5fr 1.5fr;
 }
 
 /* arrows
@@ -361,4 +361,12 @@ THIRSTY */
 
 .common--row-rev .common__desc {
   text-align: left;
+}
+
+.orange {
+  grid-area: ornge;
+}
+
+.orange-bg {
+  width: fit-content;
 }
