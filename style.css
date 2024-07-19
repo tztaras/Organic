@@ -1,5 +1,6 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;900&family=PT+Sans&family=Roboto&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;900&family=Roboto&display=swap");
+
 @font-face {
   font-family: "kotyhoroshko";
   src: url("/fonts/Kotyhoroshko-Regular.0.2.otf") format("opentype");
@@ -173,8 +174,7 @@ arrows */
   display: flex;
 }
 
-.slider-arrows_item {
-}
+.slider-arrows_item {}
 
 .slider-arrows_nav {
   position: absolute;
@@ -231,8 +231,7 @@ dots */
   display: flex;
 }
 
-.slider-dots_item {
-}
+.slider-dots_item {}
 
 .slider-dots_btn-wrapper {
   position: absolute;
@@ -321,6 +320,7 @@ FRESHY */
   hyphens: auto;
   text-align: right;
 }
+
 /* 
 HEALTHY
 HEALTHY
@@ -351,9 +351,11 @@ THIRSTY */
   grid-area: thirsty;
   background-color: rgba(255, 181, 72, 1);
 }
+
 .thirsty .common__desc {
   max-width: 30%;
 }
+
 .common--row-rev {
   flex-direction: row-reverse;
   gap: 40px;
@@ -372,3 +374,9 @@ THIRSTY */
   height: 100%;
   width: auto;
 }
+
+.orange__btn {}
+
+.orange__nav {}
+
+.orange__arrow {}
