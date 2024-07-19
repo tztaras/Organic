@@ -365,8 +365,10 @@ THIRSTY */
 
 .orange {
   grid-area: ornge;
+  height: 100%;
 }
 
 .orange-bg {
-  width: fit-content;
+  height: 100%;
+  width: auto;
 }
