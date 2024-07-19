@@ -336,6 +336,12 @@ HEALTHY */
   flex-direction: column-reverse;
   justify-content: flex-start;
 }
+
+.common--col-rev .common__desc {
+  max-width: 140px;
+  text-align: justify;
+}
+
 /* 
 THIRSTY
 THIRSTY
