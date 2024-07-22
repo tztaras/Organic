@@ -173,8 +173,7 @@ arrows */
   display: flex;
 }
 
-.slider-arrows_item {
-}
+.slider-arrows_item {}
 
 .slider-arrows_nav {
   position: absolute;
@@ -233,8 +232,7 @@ dots */
   display: flex;
 }
 
-.slider-dots_item {
-}
+.slider-dots_item {}
 
 .slider-dots_btn-wrapper {
   position: absolute;
@@ -404,3 +402,20 @@ THIRSTY */
   bottom: 25px;
   right: 30px;
 }
+
+/* 
+FOOTER
+FOOTER
+FOOTER */
+
+.footer {
+  background-color: rgb(41, 37, 37);
+}
+
+.socials {}
+
+.socials__link {}
+
+.sidebar {}
+
+.common {}
