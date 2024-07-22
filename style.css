@@ -82,6 +82,7 @@ p {
 .header_nav ul {
   display: flex;
   gap: 10px;
+  font-family: "Roboto", sans-serif;
 }
 
 .header_nav a {
@@ -408,6 +409,14 @@ FOOTER
 FOOTER
 FOOTER */
 
+.wrapper-down {
+  display: grid;
+  /* grid-template-columns: 4.5fr 1.5fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 'footer sidebar'; */
+  grid-template: 'footer sidebar' 1fr / 4.5fr 1.5fr;
+}
+
 .footer {
   background-color: rgb(41, 37, 37);
 }
@@ -426,4 +435,12 @@ FOOTER */
 
 .form__submit {}
 
+/* 
+SIDEBAR
+SIDEBAR
+SIDEBAR 
+*/
+
 .sidebar {}
+
+.btn--rounded {}
