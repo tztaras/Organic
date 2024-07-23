@@ -430,6 +430,7 @@ FOOTER */
                         '. . . copy'; */
 
   grid-template: '. socials form logo' max-content '. . . copy' 100px / 1fr 1fr 1.5fr 1fr;
+  align-content: center;
   align-items: end;
   /* gap: 20px;
   align-items: center;
