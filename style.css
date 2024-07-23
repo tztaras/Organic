@@ -286,7 +286,7 @@ FRESHY */
 
 .freshy {
   grid-area: freshy;
-  background-color: rgba(196, 232, 108, 1);
+  background-color: rgba(177 213 90);
 }
 
 .common {
@@ -458,4 +458,5 @@ SIDEBAR
 }
 
 .btn--rounded {
+  border-radius: 25px;
 }
