@@ -421,6 +421,7 @@ FOOTER */
   /* display: flex; */
   /* background-color: rgb(41, 37, 37); */
   background-color: rgba(47, 47, 47, 1);
+  padding-top: 80px;
   grid-area: footer;
   display: grid;
   /* grid-template-columns: 1fr 1fr 1.5fr 1fr;
@@ -438,6 +439,7 @@ FOOTER */
 
 .socials {
   grid-area: socials;
+  display: flex
 }
 
 .socials__link {}
