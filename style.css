@@ -570,7 +570,7 @@ mobile
   }
 }
 
-@media (max-width:1200px) {
+@media (max-width:1050px) {
   .main {
     grid-template-rows: auto;
     grid-template-columns: 1fr 0.5fr 0.5fr 1fr;
