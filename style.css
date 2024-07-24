@@ -556,4 +556,15 @@ mobile
 mobile 
 */
 
-@media (max-width:1300px) {}
+@media (max-width:1300px) {
+  .footer {
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-rows: max-content 100px;
+    grid-template-areas: ' socials form logo'
+      ' . . copy';
+  }
+
+  .socials {
+    padding-left: 5%;
+  }
+}
