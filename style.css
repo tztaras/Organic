@@ -564,7 +564,10 @@ mobile
       ' . . copy';
   }
 
-  .socials {
-    padding-left: 5%;
+  .socials,
+  .form {
+    padding-left: 10%;
   }
 }
+
+/* @media (max-width:1280px) */
