@@ -571,5 +571,8 @@ mobile
 }
 
 @media (max-width:1200px) {
-  .main
+  .main {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 0.5fr 0.5fr 1fr;
+  }
 }
