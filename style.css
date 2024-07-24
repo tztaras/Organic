@@ -574,5 +574,9 @@ mobile
   .main {
     grid-template-rows: auto;
     grid-template-columns: 1fr 0.5fr 0.5fr 1fr;
+    grid-template-areas: 'freshy freshy freshy healthy'
+      'slider-arrows slider-arrows slider-arrows healthy'
+      'thirsty thirsty thirsty thirsty'
+      'slider-dots slider-dots ornge ornge';
   }
 }
