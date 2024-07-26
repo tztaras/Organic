@@ -155,8 +155,8 @@ p {
     "freshy healthy slider-dots orange";  */
   grid-template:
     "slider-arrows healthy thirsty thirsty" 3fr
-    "slider-arrows healthy slider-dots ornge" 1fr
-    "freshy healthy slider-dots ornge" 3fr / 2fr 1fr 1.5fr 1.5fr;
+    "slider-arrows healthy slider-dots orange" 1fr
+    "freshy healthy slider-dots orange" 3fr / 2fr 1fr 1.5fr 1.5fr;
 }
 
 /* 
@@ -234,9 +234,6 @@ dots */
   width: 100%;
   height: 100%;
   display: flex;
-}
-
-.slider-dots_item {
 }
 
 .slider-dots_btn-wrapper {
@@ -372,7 +369,7 @@ THIRSTY */
 }
 
 .orange {
-  grid-area: ornge;
+  grid-area: orange;
   position: relative;
 }
 
@@ -590,6 +587,6 @@ mobile
       "freshy freshy freshy healthy"
       "slider-arrows slider-arrows slider-arrows healthy"
       "thirsty thirsty thirsty thirsty"
-      "slider-dots slider-dots ornge ornge";
+      "slider-dots slider-dots orange orange";
   }
 }
