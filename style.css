@@ -236,7 +236,8 @@ dots */
   display: flex;
 }
 
-.slider-dots_item {}
+.slider-dots_item {
+}
 
 .slider-dots_btn-wrapper {
   position: absolute;
@@ -433,7 +434,7 @@ FOOTER */
   grid-template-areas: '. socials form logo'
                         '. . . copy'; */
 
-  grid-template: '. socials form logo' max-content '. . . copy' 100px / 1fr 1fr 1.5fr 1fr;
+  grid-template: ". socials form logo" max-content ". . . copy" 100px / 1fr 1fr 1.5fr 1fr;
   align-content: center;
   align-items: end;
   /* gap: 20px;
@@ -447,7 +448,6 @@ FOOTER */
   grid-area: socials;
   display: flex;
   gap: 10px;
-
 }
 
 .socials__link {
@@ -469,7 +469,6 @@ FOOTER */
   grid-area: form;
   text-transform: uppercase;
   font-family: "Fira Sans Condensed", sans-serif;
-
 }
 
 .form__title {
@@ -478,7 +477,8 @@ FOOTER */
   letter-spacing: 2px;
 }
 
-.form__row {}
+.form__row {
+}
 
 .form__input {
   height: 40px;
@@ -490,9 +490,8 @@ FOOTER */
 }
 
 .form__input:focus {
-  background-color: #FFF;
+  background-color: #fff;
 }
-
 
 .form__submit {
   font-size: 14px;
@@ -506,7 +505,6 @@ FOOTER */
 
 .form__submit:hover {
   background-color: rgb(0, 197, 187);
-
 }
 
 .form__submit:active {
@@ -521,7 +519,8 @@ FOOTER */
 
 .footer__logo:hover {
   transform: scale(1.05);
-  filter: sepia(100%)
+  filter: sepia(100%);
+  cursor: cell;
 }
 
 .copy {
@@ -550,18 +549,31 @@ SIDEBAR
   margin-top: 20px;
 }
 
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(177 213 90);
+}
+
 /* 
 mobile
 mobile
 mobile 
 */
 
-@media (max-width:1300px) {
+@media (max-width: 1300px) {
   .footer {
     grid-template-columns: 1fr 1.5fr 1fr;
     grid-template-rows: max-content 100px;
-    grid-template-areas: ' socials form logo'
-      ' . . copy';
+    grid-template-areas:
+      " socials form logo"
+      " . . copy";
   }
 
   .socials,
@@ -570,13 +582,14 @@ mobile
   }
 }
 
-@media (max-width:1050px) {
+@media (max-width: 1050px) {
   .main {
     grid-template-rows: auto;
     grid-template-columns: 1fr 0.5fr 0.5fr 1fr;
-    grid-template-areas: 'freshy freshy freshy healthy'
-      'slider-arrows slider-arrows slider-arrows healthy'
-      'thirsty thirsty thirsty thirsty'
-      'slider-dots slider-dots ornge ornge';
+    grid-template-areas:
+      "freshy freshy freshy healthy"
+      "slider-arrows slider-arrows slider-arrows healthy"
+      "thirsty thirsty thirsty thirsty"
+      "slider-dots slider-dots ornge ornge";
   }
 }
