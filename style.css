@@ -226,7 +226,7 @@ dots */
 .slider-dots {
   grid-area: slider-dots;
   position: relative;
-  max-width: fit-content;
+  /* max-width: fit-content; */
 }
 
 .slider-dots_items-wrapper {
