@@ -554,7 +554,7 @@ SIDEBAR
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(177 213 90);
+  background: rgb(0, 0, 0);
 }
 
 /* 
