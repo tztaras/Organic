@@ -577,6 +577,12 @@ mobile
 }
 
 @media (max-width: 1050px) {
+  .header {
+    grid-template-columns: repeat(3, max-content);
+    grid-template-areas: 'logo nav search';
+    justify-content: space-around;
+  }
+
   .main {
     grid-template-rows: auto;
     grid-template-columns: 1fr 0.5fr 0.5fr 1fr;
