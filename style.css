@@ -626,6 +626,10 @@ mobile
 
 
 @media (max-width:760px) {
+  .header_nav {
+    display: none;
+  }
+
   .footer {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
