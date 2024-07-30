@@ -606,6 +606,10 @@ mobile
     gap: 70px;
   }
 
+  .sidebar .common__desc {
+    max-width: 40%;
+  }
+
   .wrapper-down {
     grid-template-columns: auto;
     grid-template-rows: auto;
