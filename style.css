@@ -623,3 +623,26 @@ mobile
   }
 
 }
+
+
+@media (max-width:760px) {
+  .footer {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 'socials' 'form' 'logo' 'copy';
+    justify-items: center;
+    text-align: center;
+    padding-top: 40px;
+    gap: 35px;
+
+  }
+
+  .form__title {
+    margin-bottom: 5px;
+  }
+
+  .socials,
+  .form {
+    padding-left: 0;
+  }
+}
