@@ -601,9 +601,15 @@ mobile
     /* height: 100%; */
   }
 
+  .common--row-rev {
+    /* padding-right: 140px; */
+    gap: 70px;
+  }
+
   .wrapper-down {
     grid-template-columns: auto;
-    grid-template-rows: max-content max-content;
+    grid-template-rows: auto;
     grid-template-areas: 'sidebar' 'footer';
   }
+
 }
