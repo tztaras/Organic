@@ -219,9 +219,11 @@ arrows
 .slider-arrows_arrow--right {
 } */
 
-/* dots
+/* 
 dots
-dots */
+dots
+dots 
+*/
 
 .slider-dots {
   grid-area: slider-dots;
