@@ -281,7 +281,8 @@ dots */
 /* 
 FRESHY
 FRESHY
-FRESHY */
+FRESHY 
+*/
 
 .freshy {
   grid-area: freshy;
@@ -327,7 +328,8 @@ FRESHY */
 /* 
 HEALTHY
 HEALTHY
-HEALTHY */
+HEALTHY 
+*/
 
 .healthy {
   grid-area: healthy;
@@ -348,7 +350,8 @@ HEALTHY */
 /* 
 THIRSTY
 THIRSTY
-THIRSTY */
+THIRSTY 
+*/
 
 .thirsty {
   grid-area: thirsty;
@@ -434,10 +437,6 @@ FOOTER */
   grid-template: ". socials form logo" max-content ". . . copy" 100px / 1fr 1fr 1.5fr 1fr;
   align-content: center;
   align-items: end;
-  /* gap: 20px;
-  align-items: center;
-  justify-content: center; */
-
   color: #fff;
 }
 
@@ -579,7 +578,7 @@ mobile
 @media (max-width: 1050px) {
   .header {
     grid-template-columns: repeat(3, max-content);
-    grid-template-areas: 'logo nav search';
+    grid-template-areas: "logo nav search";
     justify-content: space-around;
   }
 
@@ -619,13 +618,11 @@ mobile
   .wrapper-down {
     grid-template-columns: auto;
     grid-template-rows: auto;
-    grid-template-areas: 'sidebar' 'footer';
+    grid-template-areas: "sidebar" "footer";
   }
-
 }
 
-
-@media (max-width:760px) {
+@media (max-width: 760px) {
   .header_nav {
     display: none;
   }
@@ -633,12 +630,11 @@ mobile
   .footer {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    grid-template-areas: 'socials' 'form' 'logo' 'copy';
+    grid-template-areas: "socials" "form" "logo" "copy";
     justify-items: center;
     text-align: center;
     padding-top: 40px;
     gap: 35px;
-
   }
 
   .form__title {
@@ -651,4 +647,5 @@ mobile
   }
 }
 
-@media (max-width: 600px) {}
+@media (max-width: 600px) {
+}
