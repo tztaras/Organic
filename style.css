@@ -652,7 +652,7 @@ mobile
   .main {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    grid-template-areas: 'freshy' 'slider-arrows' 'healthy' 'thirsty' 'slider-dots' 'orange';
+    grid-template-areas: 'freshy' 'slider-arrows' 'healthy' 'slider-dots' 'thirsty' 'orange';
 
   }
 }
