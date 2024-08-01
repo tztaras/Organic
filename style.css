@@ -655,4 +655,13 @@ mobile
     grid-template-areas: 'freshy' 'slider-arrows' 'healthy' 'slider-dots' 'thirsty' 'orange';
 
   }
+
+  .healthy {
+    padding-bottom: 30px;
+  }
+
+  .common--col-rev {
+    flex-direction: initial;
+    justify-content: center;
+  }
 }
