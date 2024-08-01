@@ -653,7 +653,6 @@ mobile
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas: 'freshy' 'slider-arrows' 'healthy' 'slider-dots' 'thirsty' 'orange';
-
   }
 
   .healthy {
@@ -663,7 +662,6 @@ mobile
   .common--col-rev {
     flex-direction: initial;
     justify-content: center;
-
   }
 
   .common--row-rev {
@@ -675,6 +673,5 @@ mobile
   .common.common--row-rev .common__desc,
   .sidebar .common__desc {
     max-width: 60%;
-
   }
 }
