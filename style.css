@@ -663,5 +663,6 @@ mobile
   .common--col-rev {
     flex-direction: initial;
     justify-content: center;
+
   }
 }
