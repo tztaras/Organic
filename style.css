@@ -665,4 +665,16 @@ mobile
     justify-content: center;
 
   }
+
+  .common--row-rev {
+    gap: 40px;
+  }
+
+  .thirsty .common__desc,
+  .common--col-rev .common__desc,
+  .common.common--row-rev .common__desc,
+  .sidebar .common__desc {
+    max-width: 60%;
+
+  }
 }
