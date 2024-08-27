@@ -125,7 +125,29 @@ p {
 .header_nav a:active:after {
   background-color: rgb(50, 84, 85);
 }
+/* канапка меню */
+/* канапка меню */
+/* канапка меню */
+.menu-icon {
+  position: relative;
+  width: 40px;
+  height: 30px;
+}
+.menu-icon__line {
+  display: block;
+  background: #000;
+  width: 100%;
+  height: 3px;
+}
 
+.menu-icon__line::after,
+.menu-icon__line::before {
+  content: "";
+  display: block;
+  background: #000;
+  width: 100%;
+  height: 3px;
+}
 .search {
   grid-area: search;
 }
