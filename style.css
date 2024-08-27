@@ -14,6 +14,8 @@ font-family: "Roboto", sans-serif; для лого
 
 * {
   /* background-color: rgb(251, 255, 254); */
+  /* background-color: rgb(251, 255, 254); */
+  /* background-color: rgb(251, 255, 254); */
 
   font-size: 14px;
   font-weight: 400;
@@ -652,7 +654,7 @@ mobile
   .main {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    grid-template-areas: 'freshy' 'slider-arrows' 'healthy' 'slider-dots' 'thirsty' 'orange';
+    grid-template-areas: "freshy" "slider-arrows" "healthy" "slider-dots" "thirsty" "orange";
   }
 
   .healthy {
@@ -676,7 +678,7 @@ mobile
   }
 }
 
-@media (max-width:350px) {
+@media (max-width: 350px) {
   .common {
     padding: 20px;
     gap: 15px;
