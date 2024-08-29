@@ -142,6 +142,7 @@ p {
 }
 
 .menu-icon__line {
+  transition: background-color 1.5s;
 }
 .menu-icon::before {
   top: 0;
