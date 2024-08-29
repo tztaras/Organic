@@ -167,13 +167,13 @@ p {
 .menu-icon--active::before {
   transform: rotate(45deg) translateY(-50%);
   top: 46%;
-  transition: top 0.5s, transform 0.5s;
+  transition: top 0.5s, transform 0.5s 0.5s;
 }
 
 .menu-icon--active::after {
   transform: rotate(-45deg) translateY(50%);
   bottom: 50%;
-  transition: bottom 0.5s, transform 0.5s;
+  transition: bottom 0.5s, transform 0.5s 0.5s;
 }
 
 .search {
