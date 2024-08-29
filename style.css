@@ -141,6 +141,8 @@ p {
   position: absolute;
 }
 
+.menu-icon__line {
+}
 .menu-icon::before {
   top: 0;
   transition: transform 0.5s, top 0.5s 0.5s;
@@ -162,6 +164,7 @@ p {
 
 .menu-icon--active .menu-icon__line {
   background-color: transparent;
+  transition: background-color 0.5s;
   /* display: none; */
 }
 
