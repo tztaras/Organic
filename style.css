@@ -163,12 +163,12 @@ p {
 }
 
 .menu-icon--active::before {
-  transform: rotate(45deg);
+  transform: rotate(45deg) translateY(-50%);
   top: 50%;
 }
 
 .menu-icon--active::after {
-  transform: rotate(-45deg);
+  transform: rotate(-45deg) translateY(50%);
   bottom: 50%;
 }
 
