@@ -162,6 +162,10 @@ p {
   /* display: none; */
 }
 
+.menu-icon--active::before {}
+
+.menu-icon--active::after {}
+
 .search {
   grid-area: search;
 }
