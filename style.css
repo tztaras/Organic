@@ -142,10 +142,12 @@ p {
 
 .menu-icon::before {
   top: 0;
+  transition: top 0.5s, transform 0.5s;
 }
 
 .menu-icon::after {
   bottom: 0;
+  transition: bottom 0.5s, transform 0.5s;
 }
 
 .menu-icon__line,
