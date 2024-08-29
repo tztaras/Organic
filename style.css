@@ -123,6 +123,7 @@ p {
 .header_nav a:active:after {
   background-color: rgb(50, 84, 85);
 }
+
 /* канапка меню */
 /* канапка меню */
 /* канапка меню */
@@ -132,6 +133,7 @@ p {
   height: 30px;
   background-color: rgb(212, 220, 58);
 }
+
 .menu-icon::before,
 .menu-icon::after {
   content: "";
