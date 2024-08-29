@@ -678,6 +678,9 @@ mobile
   .header_nav {
     display: none;
   }
+  .menu-icon {
+    display: block;
+  }
 
   .footer {
     grid-template-columns: 1fr;
