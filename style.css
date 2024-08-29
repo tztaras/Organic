@@ -162,9 +162,13 @@ p {
   /* display: none; */
 }
 
-.menu-icon--active::before {}
+.menu-icon--active::before {
+  transform: rotate(45deg);
+}
 
-.menu-icon--active::after {}
+.menu-icon--active::after {
+  transform: rotate(-45deg);
+}
 
 .search {
   grid-area: search;
