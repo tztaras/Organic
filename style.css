@@ -131,7 +131,7 @@ p {
   position: relative;
   width: 40px;
   height: 30px;
-  background-color: rgb(212, 220, 58);
+  /* background-color: rgb(212, 220, 58); */
 }
 
 .menu-icon::before,
@@ -165,11 +165,13 @@ p {
 .menu-icon--active::before {
   transform: rotate(45deg) translateY(-50%);
   top: 50%;
+  transition: top 0.5s, transform 0.5s;
 }
 
 .menu-icon--active::after {
   transform: rotate(-45deg) translateY(50%);
   bottom: 50%;
+  transition: bottom 0.5s, transform 0.5s;
 }
 
 .search {
