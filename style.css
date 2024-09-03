@@ -144,9 +144,11 @@ p {
 .menu-icon__line {
   transition: background-color 1.5s;
 }
+
 .menu-icon::before {
   top: 0;
   transition: transform 0.5s, top 0.5s 0.5s;
+
 }
 
 .menu-icon::after {
@@ -179,7 +181,7 @@ p {
 
 .menu-icon--active::after {
   transform: rotate(-45deg) translateY(50%);
-  bottom: 45%;
+  bottom: 50%;
   transition: bottom 0.5s, transform 0.5s 0.5s;
 }
 
@@ -685,6 +687,7 @@ mobile
     grid-template-columns: repeat(2, max-content);
     grid-template-areas: "logo menu-icon";
   }
+
   .header_nav {
     display: none;
   }
