@@ -171,17 +171,25 @@ p {
 /* ===================================== */
 
 .menu-icon__line {
-  display: block;
+  /* display: flex; */
+  /* align-items: center; */
   background: #000;
   width: 100%;
   /* width: 25px; */
-  height: 7px;
+  height: 10px;
   border-radius: 10px;
+  transition: width 0.5s;
 }
 
 .menu-icon--active .menu-icon__line {
-  background-color: transparent;
-  transition: background-color 0.5s;
+  /* display: flex;
+  align-items: center; */
+
+  /* background-color: transparent; */
+  border-radius: 50%;
+  width: 10px;
+
+  transition: width 0.5s, border-radius 0.5s;
   /* display: none; */
 }
 
@@ -709,7 +717,9 @@ mobile
   }
 
   .menu-icon {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-area: menu-icon;
   }
 
