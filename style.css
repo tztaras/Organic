@@ -170,14 +170,16 @@ p {
 
 /* ===================================== */
 
-.menu-icon__line {
+.menu-icon__line,
+.menu-icon::before,
+.menu-icon::after {
   /* display: flex; */
   /* align-items: center; */
   background: #000;
   width: 100%;
   /* width: 25px; */
-  height: 10px;
-  border-radius: 10px;
+  height: 7px;
+  border-radius: 7px;
   transition: width 0.5s;
 }
 
