@@ -201,7 +201,7 @@ p {
   transition: top 0.5s, transform 0.5s 0.5s; */
   border-radius: 50%;
   width: 10px;
-  transition: width 0.5s;
+  transition: width 0.5s, border-radius 0.5s;
 }
 
 .menu-icon--active::after {
@@ -210,7 +210,7 @@ p {
   transition: bottom 0.5s, transform 0.5s 0.5s; */
   border-radius: 50%;
   width: 10px;
-  transition: width 0.5s;
+  transition: width 0.5s, border-radius 0.5s;
 }
 
 .search {
