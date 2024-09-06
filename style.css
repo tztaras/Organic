@@ -191,7 +191,7 @@ p {
 
   /* background-color: transparent; */
   border-radius: 50%;
-  width: 10px;
+  width: 7px;
 
   transition: width 0.5s, border-radius 0.5s;
   /* display: none; */
