@@ -769,6 +769,10 @@ mobile
     gap: 40px;
   }
 
+  .common--col-rev .common__desc {
+    text-align: right;
+  }
+
   .thirsty .common__desc,
   .common--col-rev .common__desc,
   .common.common--row-rev .common__desc,
