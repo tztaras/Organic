@@ -132,7 +132,6 @@ p {
   width: 40px;
   height: 30px;
   display: none;
-  /* background-color: rgb(212, 220, 58); */
 }
 
 .menu-icon::before,
@@ -148,7 +147,6 @@ p {
 .menu-icon::before {
   top: 0;
   transition: transform 0.5s, top 0.5s 0.5s;
-
 }
 
 .menu-icon::after {
@@ -167,7 +165,6 @@ p {
   height: 7px;
   border-radius: 10px;
 } */
-
 /* ===================================== */
 
 .menu-icon__line,
